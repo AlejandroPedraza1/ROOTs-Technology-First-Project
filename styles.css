@@ -1,0 +1,92 @@
+styles.css
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #f542ef;
+  display: flex; 
+  justify-content: center;
+}
+.image1{
+  postion: absolute;
+  float: left;
+  margin-left: -400px;
+  padding: 12px;
+  }
+ul {
+  margin-right: -450px;
+  font-size: 25px;
+  list-style: none;
+  display: inline-flex;
+  justify: space-between;
+  padding: 30px;
+}
+li{
+  padding: 10px;
+}
+
+.part1{
+  background-color: #ffbde8;
+  width: 100%;
+  height: 350px;
+  display: flex;
+}
+.description{
+  font-size: 40px;
+  border-style: dotted;
+  border-color: white; 
+  font-family: cursive;
+  text-align: center;
+  margin: 60px;
+}
+.image2{
+  float: right;
+  padding: 25px;
+}
+
+.part2{
+  background-color: #FF657A;
+  width: 100%;
+  height: 300px;
+  display: table;
+  font-family: cursive;
+}
+.us{  
+  font-size: 25px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 450px;
+  padding: 45px;
+}
+.testimonials{
+  font-size: 15px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 300px;
+  padding: 50px;
+  font-style: italic;
+}
+
+footer{
+  background-color: #f542ef; 
+  display: table;
+  width: 100%;
+  height:250px;
+}
+.why{
+  font-size: 30px;
+  padding: 1px;
+  margin: 20px;
+}
+.why{
+  display: flex;
+}
+.list{
+  display: flex;
+  justify-content: space-around;
+}
+.elements{
+  margin: 50px;
+}
+.images{
+  height:100px;
+}
